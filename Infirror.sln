@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desktop", "desktop", "{86C1B057-F281-2C8E-BBBC-750B273C716A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simulator", "projects\simulator\simulator\simulator.vcxproj", "{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cli", "projects\cli\cli.vcxproj", "{5D66880B-C96F-887C-52EB-9E7CBEF3937C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "arduino", "arduino", "{BEF80A8E-2AB9-86C4-F3F3-CF415F73CBA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "infirror", "projects\infirror\infirror.vcxproj", "{3069D46B-1C36-2F77-454F-1D1F317B6405}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graphics", "graphics", "{9D769AD1-8944-8ED7-72D8-FEFD5E456A3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glad", "projects\simulator\libraries\glad\glad.vcxproj", "{DD62977C-C999-980D-7286-7E105E9C140F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "projects\simulator\libraries\glfw\glfw.vcxproj", "{9563977C-819A-980D-2A87-7E10169D140F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "projects\simulator\libraries\imgui\imgui.vcxproj", "{0098A80F-6CAC-D0C0-352E-7420A101CDF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "infirror_lib", "projects\infirror\src\infirror_lib\infirror_lib.vcxproj", "{86727BA5-72D5-0A4A-1B5B-4300079DD6CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7}.Debug|Win32.Build.0 = Debug|Win32
+		{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7}.Release|Win32.ActiveCfg = Release|Win32
+		{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7}.Release|Win32.Build.0 = Release|Win32
+		{5D66880B-C96F-887C-52EB-9E7CBEF3937C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D66880B-C96F-887C-52EB-9E7CBEF3937C}.Debug|Win32.Build.0 = Debug|Win32
+		{5D66880B-C96F-887C-52EB-9E7CBEF3937C}.Release|Win32.ActiveCfg = Release|Win32
+		{5D66880B-C96F-887C-52EB-9E7CBEF3937C}.Release|Win32.Build.0 = Release|Win32
+		{3069D46B-1C36-2F77-454F-1D1F317B6405}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3069D46B-1C36-2F77-454F-1D1F317B6405}.Debug|Win32.Build.0 = Debug|Win32
+		{3069D46B-1C36-2F77-454F-1D1F317B6405}.Release|Win32.ActiveCfg = Release|Win32
+		{3069D46B-1C36-2F77-454F-1D1F317B6405}.Release|Win32.Build.0 = Release|Win32
+		{DD62977C-C999-980D-7286-7E105E9C140F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD62977C-C999-980D-7286-7E105E9C140F}.Debug|Win32.Build.0 = Debug|Win32
+		{DD62977C-C999-980D-7286-7E105E9C140F}.Release|Win32.ActiveCfg = Release|Win32
+		{DD62977C-C999-980D-7286-7E105E9C140F}.Release|Win32.Build.0 = Release|Win32
+		{9563977C-819A-980D-2A87-7E10169D140F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9563977C-819A-980D-2A87-7E10169D140F}.Debug|Win32.Build.0 = Debug|Win32
+		{9563977C-819A-980D-2A87-7E10169D140F}.Release|Win32.ActiveCfg = Release|Win32
+		{9563977C-819A-980D-2A87-7E10169D140F}.Release|Win32.Build.0 = Release|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Debug|Win32.Build.0 = Debug|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Release|Win32.ActiveCfg = Release|Win32
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1}.Release|Win32.Build.0 = Release|Win32
+		{86727BA5-72D5-0A4A-1B5B-4300079DD6CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86727BA5-72D5-0A4A-1B5B-4300079DD6CC}.Debug|Win32.Build.0 = Debug|Win32
+		{86727BA5-72D5-0A4A-1B5B-4300079DD6CC}.Release|Win32.ActiveCfg = Release|Win32
+		{86727BA5-72D5-0A4A-1B5B-4300079DD6CC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8591540C-F1FB-0883-3A3A-BA28A6E3E6D7} = {86C1B057-F281-2C8E-BBBC-750B273C716A}
+		{5D66880B-C96F-887C-52EB-9E7CBEF3937C} = {86C1B057-F281-2C8E-BBBC-750B273C716A}
+		{3069D46B-1C36-2F77-454F-1D1F317B6405} = {BEF80A8E-2AB9-86C4-F3F3-CF415F73CBA0}
+		{DD62977C-C999-980D-7286-7E105E9C140F} = {9D769AD1-8944-8ED7-72D8-FEFD5E456A3C}
+		{9563977C-819A-980D-2A87-7E10169D140F} = {9D769AD1-8944-8ED7-72D8-FEFD5E456A3C}
+		{0098A80F-6CAC-D0C0-352E-7420A101CDF1} = {9D769AD1-8944-8ED7-72D8-FEFD5E456A3C}
+	EndGlobalSection
+EndGlobal
